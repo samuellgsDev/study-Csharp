@@ -27,7 +27,8 @@ Portanto, ao escolher um nome para uma variável em C#, como no exemplo `string 
 É importante observar que a atribuição ocorre da direita para a esquerda. Em outras palavras, o compilador do C# deve primeiro entender o valor no lado direito do operador de atribuição e, em seguida, ele pode executar a atribuição à variável no lado esquerdo do operador de atribuição. Se inverter a ordem, você confundirá o compilador de C#.
 
 
-`O que é Camel case?                                                                      Camel case é um estilo de nomenclatura de texto usado em programação que combina várias palavras em uma única palavra, em que a primeira letra de cada palavra é escrita em minúscula, exceto a primeira palavra. Por exemplo, se quisermos nomear uma variável que represente a idade de uma pessoa, podemos chamá-la de "idadeDaPessoa" em camel case. Em C#, a convenção de nomenclatura camel case é usada para nomear variáveis, parâmetros de método e propriedades. Embora não seja um requisito absoluto, é considerado uma boa prática seguir esta convenção para manter a consistência e a legibilidade do código.`
+`O que é Camel case?`
+`Camel case é um estilo de nomenclatura de texto usado em programação que combina várias palavras em uma única palavra, em que a primeira letra de cada palavra é escrita em minúscula, exceto a primeira palavra. Por exemplo, se quisermos nomear uma variável que represente a idade de uma pessoa, podemos chamá-la de "idadeDaPessoa" em camel case. Em C#, a convenção de nomenclatura camel case é usada para nomear variáveis, parâmetros de método e propriedades. Embora não seja um requisito absoluto, é considerado uma boa prática seguir esta convenção para manter a consistência e a legibilidade do código.`
 
 ### Exemplos de nomes de variáveis
 
