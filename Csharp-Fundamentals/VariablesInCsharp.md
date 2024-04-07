@@ -40,14 +40,19 @@ Portanto, ao escolher um nome para uma variável em C#, como no exemplo `string 
 
 C# foi projetado para impor tipos. Ao trabalhar com variáveis, a imposição de tipos significa que você não pode atribuir um valor de um tipo de dados a uma variável declarada para conter outro tipo de dados diferente.
 **Exemplo:**
-`int primeiroNome;                                                                      primeiroNome = "samuel";`
+`int primeiroNome;`
+`primeiroNome = "samuel";`
 No exemplo mostrado, se você tentar executar esse código, o C# irá tentar "converter implicitamente" a cadeia de caracteres "Bob" para ser um valor int. No entanto, isso é impossível. Mesmo assim, o C# tenta fazer a conversão, mas irá falhar, pois não há equivalente numérico para a palavra "Bob".
 
 ### Reatribuir o valor de uma variável
 
 Você pode reutilizar e reatribuir a variável quantas vezes desejar. Este exemplo ilustra essa ideia.
 
-`string primeiroNome;                                                               primeiroNome = "Samuel";                                                                    Console.WriteLine(primeiroNome);                                                   primeiroNome = "Marina";                                                               Console.WriteLine(primeiroNome);`
+`string primeiroNome;`
+`primeiroNome ="Samuel";`
+`Console.WriteLine(primeiroNome);`
+`primeiroNome = "Marina";`
+`Console.WriteLine(primeiroNome);`
 
 ### Inicializar a variável
 
